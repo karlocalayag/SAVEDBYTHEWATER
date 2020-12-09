@@ -1,0 +1,163 @@
+body {
+			background: #f6f6f6;
+		}
+
+		.countdownContainer{
+			position: absolute;;
+			top: 50%;
+			left: 50%;
+			transform : translateX(-50%) translateY(-50%);
+			text-align: center;
+/*			background: #ddd;
+*/			padding: 25px;
+			/*box-shadow: 0 0 5px 3px #ccc;*/
+			font-family: 'Roboto', sans-serif;
+		}
+
+		.info {
+			font-size: 50pt;
+			font-family: 'Roboto', sans-serif;
+			font-weight: bold;
+		}
+
+		th, td {
+    padding: 10px;
+}
+
+
+	.bottomdash{
+	position: relative;
+	top: 700px;
+	left: 242px;
+	width: 902px;
+	height: 1000px;
+	background: white;
+	padding-top: 5pt;
+	opacity: 100%;
+	z-index: 110;
+	font-family: 'Roboto', sans-serif;
+	font-size: 44pt;
+	font-weight: normal;
+	letter-spacing: 5pt;
+	color: black;
+}
+
+
+main {
+	/* background: grey; */
+	position: absolute;
+	overflow-x:hidden !important;
+}
+
+a:link,
+a:visited,
+a:active {
+	color:#000;
+	text-decoration:none;
+}
+
+a:hover {
+	color: #000;
+	text-decoration:overline;
+}
+
+.main {
+	font-family: 'Roboto', sans-serif;
+	font-size: 28pt;
+	letter-spacing: 5pt;
+	color: black;
+	width: 30pt;
+	position: fixed;
+	margin: 0pt;
+	top: 16pt;
+	z-index: 150;
+	padding: 5pt;
+}
+
+
+.top-detail {
+	font-family: 'Roboto', sans-serif;
+	font-size: 6pt;
+	font-weight: normal;
+	letter-spacing: 5pt;
+	color: black;
+	position: absolute;
+	margin: 0pt;
+	top: 27pt;
+	left: 329pt;
+	z-index: 1;
+}
+
+.top-detail-2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 6pt;
+	font-weight: normal;
+	letter-spacing: 5pt;
+	color: black;
+	position: relative;
+	margin: 0pt;
+	top: 396pt;
+	left: 684pt;
+	z-index: 1;
+}
+
+/*.top-detail-3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 6pt;
+	font-weight: normal;
+	letter-spacing: 5pt;
+	color: black;
+	position: relative;
+	margin: 0pt;
+	top: 396pt;
+	left: 1184pt;
+	z-index: 1;
+}*/
+
+
+
+
+
+/*
+.series-title {
+	font-family: Helvetica Neue LT Std;
+	font-size: 22pt;
+	line-height: 62pt;
+	font-weight: bold;
+	font-style: italic; 
+	text-align: right;
+	width: 495pt;
+	position: fixed;
+	top: 150pt;
+	left: 12pt;
+	letter-spacing: 5pt;
+}
+
+.all-events {
+	margin-left: 685px;
+	margin-top: -825px;
+}
+
+.event {
+	font-family: helvetica;
+	font-size: 14pt;
+	position: relative;
+	left: 505pt;
+	bottom: 600pt;
+}
+
+.date{
+	font-style: italic;
+	letter-spacing: 10pt;
+	font-weight: bold;
+	line-height: 28pt;
+	position: -webkit-sticky;
+    position: sticky;
+}
+
+.name, .event-title{
+	letter-spacing: 3pt;
+	font-size: 8pt;
+	line-height: 13pt;
+	width: 170px;
+}*/
