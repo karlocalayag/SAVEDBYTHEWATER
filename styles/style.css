@@ -20,12 +20,16 @@
 }
 
 /* code that is here will apply to any screen size */
+video {
+	float: right;
+}
 
-body {
-		background: #f6f6f6;
-		}
+body { 
+	margin: 0;
+}
 
-		.countdownContainer{
+
+.countdownContainer{
 			position: absolute;;
 			top: 50%;
 			left: 50%;
@@ -37,13 +41,14 @@ body {
 			font-family: 'Roboto', sans-serif;
 		}
 
-		.info {
+.info {
 			font-size: 50pt;
 			font-family: 'Roboto', sans-serif;
 			font-weight: bold;
 		}
 
-		th, td {
+
+th, td {
     padding: 10px;
 }
 
