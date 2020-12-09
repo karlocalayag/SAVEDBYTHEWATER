@@ -43,19 +43,19 @@ body {
 */		}
 
 .info {
-			font-size: 50pt;
+			font-size: 52pt;
 			font-family: 'Roboto', sans-serif;
 			font-weight: bold;
 }
 
 .info-2 {
-	font-size: 7pt;
+	font-size: 8pt;
 	letter-spacing: 2pt;
 }
 
 
 th, td {
-    padding: 15px;
+    padding: 10px;
 }
 
 .side-detail {
