@@ -53,8 +53,20 @@ th, td {
     padding: 10px;
 }
 
+.side-detail {
+	font-family: 'Roboto', sans-serif;
+	font-size: 6pt;
+	font-weight: normal;
+	letter-spacing: 5pt;
+	color: black;
+	position: fixed;
+	margin: 0pt;
+	top: 452pt;
+	left: 70pt;
+	z-index: 150;
+}
 
-.bottomdash{
+/*.bottomdash{
 	position: relative;
 	top: 700px;
 	left: 242px;
@@ -69,7 +81,7 @@ th, td {
 	font-weight: normal;
 	letter-spacing: 5pt;
 	color: black;
-}
+}*/
 
 
 main {
