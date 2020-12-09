@@ -22,7 +22,7 @@
 /* code that is here will apply to any screen size */
 
 body {
-			background: #f6f6f6;
+		background: #f6f6f6;
 		}
 
 		.countdownContainer{
@@ -48,7 +48,7 @@ body {
 }
 
 
-	.bottomdash{
+.bottomdash{
 	position: relative;
 	top: 700px;
 	left: 242px;
