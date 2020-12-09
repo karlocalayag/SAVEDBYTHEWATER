@@ -39,13 +39,14 @@ body {
 */			padding: 25px;
 			/*box-shadow: 0 0 5px 3px #ccc;*/
 			font-family: 'Roboto', sans-serif;
+			/*opacity: 50%*/
 		}
 
 .info {
 			font-size: 50pt;
 			font-family: 'Roboto', sans-serif;
 			font-weight: bold;
-		}
+}
 
 
 th, td {
