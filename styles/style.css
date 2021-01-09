@@ -88,6 +88,9 @@ th, td {
 	color: black;
 }*/
 
+i {
+	background-size: 30px 30px;
+}
 
 main {
 	/* background: grey; */
