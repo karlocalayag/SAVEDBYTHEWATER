@@ -26,7 +26,12 @@ video {
 
 body { 
 	margin: 0;
-}
+} 
+/*
+.main {
+	padding: 15px;
+	margin: 0px;
+}*/
 
 
 .countdownContainer{
@@ -120,7 +125,7 @@ a:hover {
 	margin: 0pt;
 	top: 16pt;
 	z-index: 150;
-	padding: 5pt;
+	padding: 10pt;
 }
 
 
