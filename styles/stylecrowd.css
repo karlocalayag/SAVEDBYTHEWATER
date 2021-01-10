@@ -1,0 +1,208 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height:100%;
+  width:100%;
+  background-attachment: fixed;
+
+}
+
+canvas {
+  display: block;
+  position:fixed;
+  width:110%;
+  height:110%;
+    background:url();
+    background-size: 100% 100%;
+
+}
+
+/* code that is here, until the first @media block, will apply to any screen size */
+/*#somethingorother {
+  width: 800px ;
+}*/
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+  #countdownContainer{
+    float: right;
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 812px) {
+  /* comes into effect for screens larger than or equal to 812 pixels */
+  #countdownContainer{
+    float: right;
+    width: 60%;
+  }
+}
+
+/* code that is here will apply to any screen size */
+video {
+  float: right;
+}
+
+body { 
+  margin: 0;
+} 
+/*
+.main {
+  padding: 15px;
+  margin: 0px;
+}*/
+
+th, td {
+    padding: 10px;
+}
+
+.side-detail {
+  font-family: 'Roboto', sans-serif;
+  font-size: 6pt;
+  font-weight: bolder;
+  letter-spacing: 5pt;
+  color: black;
+  position: fixed;
+  margin: 0pt;
+  top: 452pt;
+  left: 70pt;
+  z-index: 150;
+}
+
+/*.bottomdash{
+  position: relative;
+  top: 700px;
+  left: 242px;
+  width: 902px;
+  height: 1000px;
+  background: white;
+  padding-top: 5pt;
+  opacity: 100%;
+  z-index: 110;
+  font-family: 'Roboto', sans-serif;
+  font-size: 44pt;
+  font-weight: normal;
+  letter-spacing: 5pt;
+  color: black;
+}*/
+
+
+
+main {
+  /* background: grey; */
+  position: absolute;
+  overflow-x:hidden !important;
+}
+
+a:link,
+a:visited,
+a:active {
+  color:#000;
+  text-decoration:none;
+}
+
+a:hover {
+  color: #000;
+  text-decoration:overline;
+}
+
+.main {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28pt;
+  letter-spacing: 5pt;
+  color: black;
+  width: 30pt;
+  position: fixed;
+  margin: 0pt;
+  top: 16pt;
+  z-index: 150;
+  padding: 10pt;
+}
+
+
+.top-detail {
+  font-family: 'Roboto', sans-serif;
+  font-size: 6pt;
+  font-weight: normal;
+  letter-spacing: 5pt;
+  color: black;
+  position: absolute;
+  margin: 0pt;
+  top: 27pt;
+  left: 329pt;
+  z-index: 1;
+}
+
+.top-detail-2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 6pt;
+  font-weight: normal;
+  letter-spacing: 5pt;
+  color: black;
+  position: relative;
+  margin: 0pt;
+  top: 396pt;
+  left: 684pt;
+  z-index: 1;
+}
+
+/*.top-detail-3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 6pt;
+  font-weight: normal;
+  letter-spacing: 5pt;
+  color: black;
+  position: relative;
+  margin: 0pt;
+  top: 396pt;
+  left: 1184pt;
+  z-index: 1;
+}*/
+
+
+
+
+
+/*
+.series-title {
+  font-family: Helvetica Neue LT Std;
+  font-size: 22pt;
+  line-height: 62pt;
+  font-weight: bold;
+  font-style: italic; 
+  text-align: right;
+  width: 495pt;
+  position: fixed;
+  top: 150pt;
+  left: 12pt;
+  letter-spacing: 5pt;
+}
+
+.all-events {
+  margin-left: 685px;
+  margin-top: -825px;
+}
+
+.event {
+  font-family: helvetica;
+  font-size: 14pt;
+  position: relative;
+  left: 505pt;
+  bottom: 600pt;
+}
+
+.date{
+  font-style: italic;
+  letter-spacing: 10pt;
+  font-weight: bold;
+  line-height: 28pt;
+  position: -webkit-sticky;
+    position: sticky;
+}
+
+.name, .event-title{
+  letter-spacing: 3pt;
+  font-size: 8pt;
+  line-height: 13pt;
+  width: 170px;
+}*/
