@@ -126,6 +126,12 @@ a:hover {
 	top: 16pt;
 	z-index: 150;
 	padding: 10pt;
+	user-drag: none; 
+  	user-select: none;
+  	-moz-user-select: none;
+  	-webkit-user-drag: none;
+  	-webkit-user-select: none;
+  	-ms-user-select: none;
 }
 
 
