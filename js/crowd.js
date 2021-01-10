@@ -4,7 +4,7 @@
 
 //first we set up a global variable that will hold our objects. 
 //variables can hold anything, including functions.
-var spacing = 25;
+var spacing = 28;
 var txtSize = 25;
 var speedinc = 1.001;
 var maxSpeed = 1;
@@ -40,7 +40,7 @@ function renderParticle(i)
   
   //we'll use this variable i to check our particle array and draw a circle there
  //ellipse(particles[i].pos.x,particles[i].pos.y,10);
-  textSize(17);
+  textSize(20);
 
   text(message[i],particles[i].pos.x,particles[i].pos.y);
   
