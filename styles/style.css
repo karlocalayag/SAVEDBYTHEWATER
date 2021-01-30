@@ -28,6 +28,9 @@
   overflow: hidden;
 }
 
+/*
+turn off video container and vcv to get scrollable video page back*/
+
 .video-container video {
 
   min-width: 100%; 
@@ -39,7 +42,7 @@
 
 
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
