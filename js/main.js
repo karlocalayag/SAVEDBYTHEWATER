@@ -1,3 +1,8 @@
+// PRELOADER
+// $(window).on("load", function(){
+//     $(".box").fadeOut("fast");
+// });
+
 // Settings
 var rings = 11;
 
