@@ -1,0 +1,1 @@
+var oldUrl=document.referrer,pageUrl=window.location.href;window.onhashchange=function(){history.pushState({url:"http://kidstudio.co/"},"title","/")},window.onpopstate=function(a){var b=document.referrer,c=window.location.href;if(b!=c){a.state;location.reload()}};

@@ -1,0 +1,3219 @@
+<!DOCTYPE html>
+<html lang="en" class=" -webkit- js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths" style="">
+
+<head>
+   <!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-64948800-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-64948800-1');
+</script>
+
+<meta name="google-site-verification" content="RVsCW92S3XWZHhivELf5loWEhqyqLkpZ6s46IomBvaQ">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <style media="" data-href="styles/56.css">* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'am';
+  src:  url("http://kidstudio.co/assets/css/../fonts/am.woff2") format('woff2'),
+        url("http://kidstudio.co/assets/css/../fonts/am.woff") format('woff');
+}
+
+::-webkit-scrollbar { width: 0 !important }
+html{
+  background: #f0f0f0;
+  background-color: #f0f0f0;
+  cursor : url("http://kidstudio.co/assets/css/../images/cursor.png") 25 15, auto;
+}
+html.loading{
+  cursor : url("http://kidstudio.co/assets/css/../images/cursor.png") 25 15, auto;
+}
+html.wait{
+  cursor : url("http://kidstudio.co/assets/css/../images/cursor.png") 25 15, auto;
+}
+body.loading {
+  cursor : url("http://kidstudio.co/assets/css/../images/cursor.png") 25 15, auto;
+}
+body.wait {
+  cursor : url("http://kidstudio.co/assets/css/../images/cursor.png") 25 15, auto;
+}
+body {
+  -webkit-font-smoothing: subpixel-antialiased;
+  background: #f0f0f0;
+  background-color: #f0f0f0;
+  cursor: url("http://kidstudio.co/assets/css/../images/cursor.png")  25 15, auto;
+}
+.design-project-info a:hover {
+  color: #fff;
+  padding-top: 2px;
+  padding-bottom:0px;
+  background-color: #000;
+}
+
+.design-project-info a {
+  border-bottom: 1px solid #000;
+  padding-bottom: 1px;
+  padding-top: 2px;
+  color: #000000;
+}
+
+.buffer {
+  position: fixed;
+  z-index: 100000;
+}
+.content {
+  z-index: 565656;
+  display: none;
+}
+::selection {
+  background: #ffff00;
+}
+.featured::selection{
+  background: Transparent;
+}
+::-moz-selection {
+  background: #ffff00;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: url("http://kidstudio.co/assets/css/../images/hover.png") 25 15, auto;
+}
+.featured {
+  background: #606060;
+}
+
+.titles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  z-index: 1;
+}
+
+.title {
+  position: fixed;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.img-counter {
+  position: fixed;
+  top: 70%;
+  left: 79%;
+  font-family: 'Helvetica', Helvetica;
+  font-size: 1em;
+  color: #060606;
+  font-weight: 600;
+
+}
+
+#label1 {
+  left:15%;
+  top: 37%;
+  vertical-align: text-top;
+}
+#label2 {
+  left:115%;
+  top: 37%;
+  vertical-align: text-top;
+}
+#label3 {
+  left:215%;
+  top: 37%;
+  vertical-align: text-top;
+}
+
+.black-line {
+  position: fixed;
+  left: 15%;
+  top: 35%;
+  height: 10px;
+  width: 156px;
+  background-color: #060606;
+}
+
+.line1 {
+  font-family: 'Helvetica', Helvetica;
+  font-size: 4em;
+  color: #060606;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.line1 p{
+  display: inline;
+}
+
+.julian {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/* line 183, ../sass/56.scss */
+.slide {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+/* line 192, ../sass/56.scss */
+.glenn {
+  font-family: "Helvetica-Neue-Bold", "Helvetica Neue Bold", "HelveticaNeueBold", Helvetica-Neue, HelveticaNeue, "Helvetica", Helvetica, "Arial", Arial, sans-serif;
+  font-weight: 600;
+  position: fixed;
+  font-size: 2em;
+  color: #030303;
+  z-index: 565656;
+  top: 1em;
+  left: 2.4em;
+  display: inline-block;
+}
+
+/* line 203, ../sass/56.scss */
+.glenn-img img {
+  width: 85px;
+  height: auto;
+}
+
+/* line 208, ../sass/56.scss */
+.steven {
+  font-family: "Andale Mono", "AndaleMono", Andale-Mono, AndaleMono, monospace;
+  font-size: 0.8em;
+  color: #030303;
+  z-index: 565656;
+  top: 4em;
+  right: 4em;
+  position: fixed;
+  display: inline-block;
+  letter-spacing: 0.1em;
+}
+
+/* line 219, ../sass/56.scss */
+.nav-links {
+  margin: 1.5em;
+  padding-top: 2px;
+  padding-bottom:2px;
+  padding-left:7px;
+  padding-right:7px;
+}
+
+.nav-links.wait {
+  cursor : url("http://kidstudio.co/assets/css/../images/cursor.png") 25 15, auto;
+}
+.nav-links.loading {
+  cursor : url("http://kidstudio.co/assets/css/../images/cursor.png") 25 15, auto;
+}
+
+/* line 224, ../sass/56.scss */
+.steven > a:hover {
+  background-color: #030303;
+  color: #fff;
+}
+
+/* line 229, ../sass/56.scss */
+.loretta {
+  font-family: "Andale Mono", "AndaleMono", Andale-Mono, AndaleMono, monospace;
+  font-size: 0.8em;
+  color: #030303;
+  z-index: 565656;
+  bottom: 4em;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  letter-spacing: 0.1em;
+  z-index: 565656;
+  display: inline-block;
+}
+
+/* line 240, ../sass/56.scss */
+.loretta > center > a:hover {
+  background-color: #030303;
+  color: #fff;
+  padding-top: 2px;
+  padding-bottom:2px;
+  padding-left:7px;
+  padding-right:7px;
+}
+
+/* line 245, ../sass/56.scss */
+.social-links {
+  margin: 2em;
+  padding-top: 2px;
+  padding-bottom:2px;
+  padding-left:7px;
+  padding-right:7px;
+}
+
+/* line 250, ../sass/56.scss */
+.next {
+  font-family: "Andale Mono", "AndaleMono", Andale-Mono, AndaleMono, monospace;
+  font-size: 0.9em;
+  color: #030303;
+  position: fixed;
+  right: 25px;
+  letter-spacing: 0.1em;
+  z-index: 565656;
+  top: 50%;
+  transform: rotate(90deg);
+  cursor: url("http://kidstudio.co/assets/css/../images/right.png") 25 15, auto;
+}
+/* line 260, ../sass/56.scss */
+.prev {
+  font-family: "Andale Mono", "AndaleMono", Andale-Mono, AndaleMono, monospace;
+  font-size: 0.9em;
+  color: #030303;
+  position: fixed;
+  left: 0px;
+  top: 50%;
+  letter-spacing: 0.1em;
+  z-index: 565656;
+  transform: rotate(270deg);
+  cursor: url("http://kidstudio.co/assets/css/../images/left.png") 25 15, auto;
+}
+
+/* line 275, ../sass/56.scss */
+.projects {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  font-family: "Andale Mono", "AndaleMono", Andale-Mono, AndaleMono, monospace;
+  color: #030303;
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 287, ../sass/56.scss */
+.header {
+  font-family: "Helvetica-Neue-Bold", "Helvetica Neue Bold", "HelveticaNeueBold", Helvetica-Neue, HelveticaNeue, "Helvetica", Helvetica, "Arial", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 5.6em;
+  color: #030303;
+  z-index: 56;
+  margin-bottom: 20px;
+}
+
+/* line 296, ../sass/56.scss */
+.project-list {
+  line-height: 2em;
+  letter-spacing: 0.1em;
+  padding-bottom: 5%;
+  font-size: 1em;
+}
+
+/* line 302, ../sass/56.scss */
+.project-list > center > a:hover {
+  background-color: #030303;
+}
+
+/* line 306, ../sass/56.scss */
+.project-links {
+  margin: 1em;
+  font-size: 1em;
+  padding-top: 2px;
+  padding-bottom:2px;
+  padding-left:6px;
+  padding-right:6px;
+  text-transform:uppercase;
+}
+
+/* line 312, ../sass/56.scss */
+.reverse {
+  color: #fff;
+}
+
+/* line 316, ../sass/56.scss */
+.reverse-img img {
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+  -moz-filter: invert(100%);
+  -o-filter: invert(100%);
+  -ms-filter: invert(100%);
+}
+
+/* line 324, ../sass/56.scss */
+.vince {
+  display: none;
+}
+
+/* line 337, ../sass/56.scss */
+.info-wrap {
+  width: 75%;
+  background-color: 0;
+  font-family: "Avenir", Avenir, sans-serif;
+  font-size: .8em;
+  padding: 40px 40px;
+}
+.video-overlay {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 341, ../sass/56.scss */
+.info-head {
+  font-family: "Helvetica-Neue-Bold", "Helvetica Neue Bold", "HelveticaNeueBold", Helvetica-Neue, HelveticaNeue, "Helvetica", Helvetica, "Arial", Arial, sans-serif;
+  font-size: 7em;
+  font-weight: 600;
+  padding-bottom: 5%;
+  margin-top: -13px;
+  color: #030303;
+}
+
+/* line 349, ../sass/56.scss */
+.info-kid {
+  font-family: "Avenir", Avenir, sans-serif;
+  padding-bottom: 5%;
+  color: #030303;
+  line-height: 1.5em;
+}
+
+.videos{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.info-img2 {
+  position: relative;
+  display: none;
+  width:80%;
+  margin-left: 10%;
+  top: 115px;
+  padding-bottom: 60px;
+}
+
+/* line 356, ../sass/56.scss */
+.info-contact {
+  font-family: "Avenir", Avenir, sans-serif;
+  font-size: 1em;
+  color: #030303;
+  line-height: 1.5em;
+}
+/* line 363, ../sass/56.scss */
+.design-wrap {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* line 373, ../sass/56.scss */
+.design-board {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  color: #030303;
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+#db1 {
+  overflow: hidden;
+}
+
+.blogentry-image {
+  position: fixed;
+  display: inline-block;
+  /* cursor: url("http://kidstudio.co/assets/css/../images/view.png") 25 15, auto; */
+  z-index: 1000;
+}
+
+.blogentry-image:last-of-type {
+  padding-bottom: 10%; 
+}
+
+.blogentry-img {
+  height: auto;
+}
+
+/* line 384, ../sass/56.scss */
+.design-project-name {
+  font-family: "Helvetica-Neue-Bold", "Helvetica Neue Bold", "HelveticaNeueBold", Helvetica-Neue, HelveticaNeue, "Helvetica", Helvetica, "Arial", Arial, sans-serif;
+  font-size: 5.6em;
+  font-weight: bold;
+  line-height: 1em;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  position: fixed;
+  top: 180px;
+  width: 75%;
+  left: 50%;
+  margin: 0 0 0 -37.5%;
+  z-index: 10000000000;
+}
+
+.blog-project-name {
+  /*position: fixed;*/
+  font-family: "Helvetica-Neue-Bold", "Helvetica Neue Bold", "HelveticaNeueBold", Helvetica-Neue, HelveticaNeue, "Helvetica", Helvetica, "Arial", Arial, sans-serif;
+  font-size: 5.6em;
+  font-weight: bold;
+  margin-left: -4px;
+  line-height: 100%;
+}
+.noscroll{
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+/* line 397, ../sass/56.scss */
+.design-project-info-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 405, ../sass/56.scss */
+.design-project-info {
+  background-color: #f0f0f0;
+  font-family: "Avenir", Avenir, sans-serif;
+  font-size: 0.8em;
+  padding: 30px 30px;
+  width: 350px;
+  position: fixed;
+  top: 350px;
+  left: 50%;
+  z-index: 1005;
+  line-height: 1.5em;
+}
+
+/* line 416, ../sass/56.scss */
+.design-board .layer-top img {
+  width: 50%;
+  height: auto;
+}
+
+/* line 421, ../sass/56.scss */
+.design-board .layer-bottom img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 426, ../sass/56.scss */
+.design-img {
+  margin-left: -10%;
+  padding-top: 40%;
+  padding-bottom: 40%;
+}
+
+/* line 432, ../sass/56.scss */
+.design-img-1 {
+  padding-top: 20%;
+}
+
+/* line 436, ../sass/56.scss */
+.design-img-5 {
+  padding-top: 80%;
+}
+
+/* line 440, ../sass/56.scss */
+.film-wrap {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* line 450, ../sass/56.scss */
+.film-board {
+  width: 100%;
+  height: 400%;
+  position: absolute;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  color: #030303;
+  top: 0;
+  left: 0;
+}
+
+/* line 461, ../sass/56.scss */
+.film-project-name {
+  font-family: "Helvetica-Neue-Bold", "Helvetica Neue Bold", "HelveticaNeueBold", Helvetica-Neue, HelveticaNeue, "Helvetica", Helvetica, "Arial", Arial, sans-serif;
+  font-size: 3em;
+  font-weight: 600;
+  padding-bottom: 5%;
+  width: 35%;
+  position: fixed;
+  top: 30%;
+  left: 10%;
+  z-index: 56;
+}
+
+/* line 473, ../sass/56.scss */
+.film-project-info-wrap {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 481, ../sass/56.scss */
+.film-project-info {
+  font-family: "Avenir", Avenir, sans-serif;
+  font-size: 0.8em;
+  padding-bottom: 5%;
+  width: 26%;
+  position: absolute;
+  top: 55%;
+  left: 10%;
+  z-index: 56;
+}
+
+/* line 492, ../sass/56.scss */
+.film-board .layer-top img {
+  width: 60%;
+  height: auto;
+}
+
+/* line 497, ../sass/56.scss */
+.film-board .layer-bottom img {
+  width: 60%;
+  height: auto;
+}
+
+/* line 502, ../sass/56.scss */
+.layer-top {
+  position: relative;
+  z-index: 2;
+  padding-left: 200px;
+}
+
+/* line 508, ../sass/56.scss */
+.layer-bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  margin-left: 60%;
+  margin-top: 30%;
+}
+
+/* line 517, ../sass/56.scss */
+.film-img {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 40%;
+  padding-bottom: 40%;
+}
+
+/* line 524, ../sass/56.scss */
+.film-img-1 {
+  padding-top: 20%;
+  padding-left: 40%;
+}
+
+/* line 529, ../sass/56.scss */
+.no-show {
+  opacity: 0;
+}
+
+/* line 533, ../sass/56.scss */
+#flash {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+/* line 541, ../sass/56.scss */
+#flash img {
+  width: 100%;
+}
+
+/* line 545, ../sass/56.scss */
+.blog-board {
+  width: 100%;
+  height: 200%;
+  position: absolute;
+  color: #030303;
+  top: 0;
+  left: 0;
+}
+
+/* line 555, ../sass/56.scss */
+.blog-post-wrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: #030303;
+}
+
+/* line 564, ../sass/56.scss */
+.blog-head-wrap {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  font-family: "Helvetica-Neue-Bold", "Helvetica Neue Bold", "HelveticaNeueBold", Helvetica-Neue, HelveticaNeue, "Helvetica", Helvetica, "Arial", Arial, sans-serif;
+  font-size: 5.6em;
+  font-weight: 600;
+  position: fixed;
+  z-index: 0;
+}
+
+/* line 577, ../sass/56.scss */
+.blog-head { 
+  margin-bottom: 15px;
+  font-family: "Helvetica-Neue-Bold", "Helvetica Neue Bold", "HelveticaNeueBold", Helvetica-Neue, HelveticaNeue, "Helvetica", Helvetica, "Arial", Arial, sans-serif;
+  font-size: 5.6em;
+  font-weight: 600;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  margin-top: -10px;
+  z-index: 1000000000000000000000000000;
+}
+
+/* line 581, ../sass/56.scss */
+.blog-post-info {
+  transform: translate(-25px, 25px);
+  position: absolute;
+  margin-left: -20px;
+}
+
+/* line 585, ../sass/56.scss */
+.blog-post-title {
+  font-family: "Helvetica-Neue-Bold", "Helvetica Neue Bold", "HelveticaNeueBold", Helvetica-Neue, HelveticaNeue, "Helvetica", Helvetica, "Arial", Arial, sans-serif;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+/* line 591, ../sass/56.scss */
+.blog-timestamp {
+  display: inline-block;
+  font-family: 'am', "Andale Mono", "AndaleMono", Andale-Mono, AndaleMono, monospace;
+  color: #030303;
+  font-size: 0.6em;
+  letter-spacing: 0.1em;
+  padding-top: 0.3em;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.blogentry-timestamp {
+  color: #000000;
+  padding-top: 5.6px; 
+  padding-bottom: 30px;
+}
+
+.blah{
+  position: fixed;
+  z-index: 1;
+    position: absolute;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+.no-touch .blah:hover > .blog-post-info > .blog-timestamp {
+  background-color: #030303;
+  color: #f0f0f0;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.no-touch .blah:hover .post-title {
+  background: black;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+/* line 600, ../sass/56.scss */
+.no-touch .blog-item:hover > .blog-post-info > .blog-timestamp {
+  background-color: #030303;
+  color: #f0f0f0;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.post-title {
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.no-touch .blog-item:hover .post-title {
+  background: black;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+/* line 608, ../sass/56.scss */
+.blog-item {
+
+  position: absolute;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+.blog-item:last-of-type {
+  padding-bottom: 10%; 
+}
+.blah:last-of-type {
+  padding-bottom: 10%; 
+}
+/* line 634, ../sass/56.scss */
+.blog-item img {
+  position: relative;
+  z-index: -1;
+}
+.blah img {
+  position: relative;
+  z-index: -1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+
+.hide-flash {
+  display: none;
+}
+
+.random-image {
+  position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  z-index: 5656565656565656565656565656565565656565656565656565656565;
+}
+
+.text{
+display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin-top:20%;
+  overflow-x: hidden;
+  font-family: 'Helvetica', Helvetica, Arial;
+}
+
+.text1 {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  font-family: 'Helvetica', Helvetica, Arial;
+}
+.info {
+  position: fixed;
+  top: 25%;
+  right: 0;
+  width: 38%;
+  height: 100%;
+}
+
+.sc-widget {
+  /*display: none;*/
+  position: fixed;
+  top: -150px;
+}
+
+.fill {
+  position: relative;
+  width: 100%
+  height: 10px;
+  margin-bottom: 30px; 
+}
+
+.player {
+  position: relative;
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+  height: 30px;
+  width: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #efefef;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+}
+
+#stream {
+  position: fixed;
+  z-index: 100;
+}
+.track {
+  width: 20px;
+  height: 20px;
+}
+.testing2{
+  position: fixed;
+  z-index: 100;
+}
+.waveform {
+  z-index: 3;
+  position: relative;
+  opacity: 0.15;
+  width: 100%;
+  height: 3px;
+  top: 13.5px;
+  background-size: 100% 100%;
+  background-color: black;
+}
+
+.position {
+  opacity: 1;
+  z-index: 5;
+  position: relative;
+  width: 0;
+  height: 3px;
+  background-color: black;
+  top: 10.5px;
+  transition: width .1s linear;
+  -webkit-transition: width .1s linear;
+  -moz-transition: width .1s linear;
+  -o-transition: width .1s linear;
+  -webkit-transform: translateZ(0);
+}
+
+.sc-play { 
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  top: 5px;
+  left: 0;
+  cursor: pointer;
+  background-image: url("http://kidstudio.co/assets/css/../images/sc-play.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: inline-block;
+}
+
+.scrub{
+  position: relative;
+  display: inline-block;
+  width: 90%;
+  height: 30px;
+  float: right;  
+  top: 0;
+  cursor: pointer;
+}
+
+@media (max-width:600px), only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .info-kid {
+      margin-top: -20px;
+    }
+    .julian {
+      margin-top: 35px;
+    }
+
+    .next {
+      font-size: 10px;
+      top: 50%;
+      right: 5px;
+    }
+
+    .prev {
+      font-size: 10px;
+      top: 49%;
+      left: -10px;
+    }
+    .glenn-img {
+        width: 100%;
+    }
+    
+    .glenn {
+        width: 100px;
+        display: block;
+        left: 50%;
+        margin-left: -50px;
+        top: 25px;
+    }
+    
+    #logo-img {
+      width: 100%;
+    }
+
+    .player {
+      width: 100%;
+    }
+
+    .steven {
+        font-size: 10px;
+        word-spacing: -41px;
+        right: auto;
+        top: 85px; 
+        width: 100%;
+        text-align: center;
+    }
+    
+    .black-line {
+        width: 10%;
+        height: 0.3%;
+        top: 30%;
+    }
+
+    .loretta {
+        position: fixed !important;
+        bottom: 25px !important;
+        font-size: 10px;
+        word-spacing: -20px;
+    }
+    
+    .header {
+        display: none;
+    }
+    
+    .project-list {
+    }
+    
+    .titles {
+        width: 100%;
+    }
+    
+    .line1 {
+        font-size: 1em;
+    }
+    
+    #label1 {
+      top: 32%;
+    }
+    #label2 {
+      top: 32%; 
+    }
+    #label3 {
+      top: 32%;
+    }
+    .title-wrap {
+        top: 15%;
+    }
+
+    .blog-img {
+      width: 100% !important;
+      height: auto !important;
+
+    }
+
+    .blogentry-image {
+      position: relative !important;
+      width: 80% !important;  
+      height: auto !important;
+      left: 0px !important;
+
+      margin-left: 10% !important;
+      margin-bottom: 10% !important;
+    }
+
+    iframe {
+      width: 100% !important; 
+      height: auto;
+      /*margin-left: -10% !important;*/
+    }
+
+    .design-board {
+      height: auto !important;
+      display:block !important;
+      overflow: initial !important;
+    }
+
+    .design-project-name {
+      top: 125px;
+      font-size: 28px;
+      font-weight: bold;
+      margin: 0;
+      /*margin-left: 10%;*/
+      left: 0;
+    }
+
+    .design-project-name p{
+      width: 100%;
+      text-align: left;
+    }
+    .blog-project-name {
+      position: relative;
+      font-size: 2em;
+      margin-left: -2.5px;
+      font-weight: bold;
+    }
+    .blogentry-timestamp {
+      padding-bottom: 20px !important;
+    }
+    .design-project-info-wrap {
+      height: 0 !important;
+      width: 100vw !important;
+    }
+    .design-project-info {
+      left: 0px;
+      position: relative !important;
+      padding: 30px 0px;
+      width: 80%;
+      margin-left: 10%;
+    }
+    .blog-item {
+      position: relative !important;
+      top: 150px !important;
+      width: 80% !important;  
+      height: auto !important;
+      left: 0px !important;
+
+      margin-left: 10% !important;
+      margin-bottom: 10% !important;
+    }
+    .blah{
+      position: relative !important;
+      top: 125px !important;
+      width: 80% !important;  
+      height: auto !important;
+      left: 0px !important;
+
+      margin-left: 10% !important;
+      margin-bottom: 10% !important;
+    }
+    .blah:last-of-type {
+      padding-bottom: 60px; 
+    }
+    .blog-head-wrap {
+      top: 180px !important;
+      z-index: 1000;
+      width: auto;
+      height: auto;
+      display: block;
+      left: 50%;
+    }
+    .video-overlay {
+      width: 100%;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      display: inline-block;
+    }
+    .info {
+      position: relative;
+      width: 80%;
+      top: 100px;
+      margin: 0 auto;
+    }
+
+    #featured-wrapper {
+      margin-top: 8px;
+      width: 100%;
+      height: auto;
+    }
+
+    #featured-wrapper #featured {
+      margin-top: 0px !important;
+    }
+
+    #featured-wrapper  canvas{
+      width: 100%;
+      height: auto;
+    }
+
+    .blog-item img{
+      width: 100%;
+    }
+    .blah img{
+      width: 100%;
+    }
+
+    .blog-head {
+      display: none;
+    }
+
+    .blog-board {
+      height: 100% !important;
+    }
+
+    .blogentry-image:last-of-type {
+      padding-bottom: 60px; 
+    }
+    .blogentry-image img {
+      width: 100%;
+    }
+
+    .blogentry-img img {
+      width: 100%;
+    }
+
+    .nav-links {
+      padding-left: 11px;
+      padding-right: 11px;
+    }
+
+    .blog-post-info {
+      margin-left: 8px;
+    }
+
+    .info-wrap {
+      width: 100%;
+      left: 0;
+      padding: 0 0 0 0;
+      margin-top: 50px;
+    }
+
+    .info-head {
+      display: none;
+    }
+
+    .post-title {
+      padding-left: 0px;
+    }
+
+    .blog-timestamp {
+      padding-left: 0px;
+    }
+
+
+}
+
+.songtitle {
+  position: relative;
+  font-size: 0.85em;
+  color: #000000;
+  width: 100%;
+  height: 20px;
+  top: 0;
+  background-color: #f0f0f0;
+  z-index: 100;
+}
+
+.hide-footer {
+  display: none !important;
+}
+
+.show-footer {
+  display: block !important;
+  bottom: 1em !important;
+}
+
+.footer-wrapper {
+  z-index: -1;
+  position: relative;
+}
+
+.loader {
+  z-index: 56565656565656;
+  background-image: url("http://kidstudio.co/assets/css/../images/loader.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 128px;
+  height: 128px;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  margin-top: -10px;
+}
+
+.hideLoader {
+  display: none;
+}
+
+.main {
+  position: fixed;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%; 
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .line1{
+    font-size: 4em;
+  }
+  .black-line{
+    height: 5px;
+  }
+} </style>
+  <script src="js/prefixfree.min.js"></script>
+  <title>WORK</title>
+  <meta name="description" content="Creative studio — branding, design and film.">
+  <meta name="keywords" content="Kid,Studio,Design,Film,Toronto,Creative">
+  
+  <meta property="og:title" content="Kid. Studio — Toronto">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="http://www.kidstudio.co/fb.jpg">
+  <meta property="og:image:url" content="http://www.kidstudio.co/fb.jpg">
+  <meta property="og:image:width" content="1201">
+  <meta property="og:image:height" content="594">
+  <meta property="og:url" content="http://www.kidstudio.co">
+  <meta property="og:description" content="Creative Studio — Toronto">
+    
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@kidstudio_">
+  <meta name="twitter:creator" content="@kidstudio_">
+  <meta name="twitter:title" content="Kid. Studio">
+  <meta name="twitter:description" content="Creative Studio — Toronto">
+  <meta name="twitter:image" content="http://www.kidstudio.co/assets/social/kid.png">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="/scripts/three.min.js"></script>
+  <script src="/scripts/okhover.min.js"></script>
+  <script src="/scripts/jquery.smoothstate.js"></script>
+  <script type="text/javascript" src="/scripts/flasher.js"></script>
+  <script src="/scripts/jquery.nicescroll.min.js"></script>
+  <script src="/scripts/modernizr.js"></script>
+  <script src="//w.soundcloud.com/player/api.js"></script>
+  
+</head>
+<body>
+  <div class="random-image hide-flash" style="background-image: url(&quot;assets/images/flash/2.png&quot;);"></div>
+    <div class="m-scene" id="main">
+    <div class="loader hideLoader loaded"></div>
+      
+  <header>
+    <a href="w4lls.co" class="glenn" id="glenn"><div class="glenn-img"><img id="logo-img" src="images/FOURWALLS.svg"></div></a>
+    <div class="steven" id="steven">
+      <a href="https://w4lls.co/work" class="nav-links">WORK</a>
+      <a href="/info" class="nav-links">INFO</a>
+    </div>
+      </header>
+  
+
+  
+
+
+<div class="content" style="display: block;">
+<div class="projects" id="projects" style="z-index: 420; background-position: -414px -226px;">
+<div class="header" id="header"></div>
+<div class="project-list">
+    <center>
+                    <a data-okimage="images/image02.png" href="https://www.youtube.com/watch?v=M_RgFHfvb6E" class="project-links" id="project-links">Musa Elms 'The Walls'</a><br>
+                    <!-- <a data-okimage="http://kidstudio.co/work/bryson-tiller-always-forever/alwaysforever.gif" href="http://kidstudio.co/work/bryson-tiller-always-forever" class="project-links" id="project-links">Bryson Tiller 'Always Forever'</a><br>
+                    <a data-okimage="http://kidstudio.co/work/wolves/wolves.gif" href="http://kidstudio.co/work/wolves" class="project-links" id="project-links">Big Sean 'Wolves' ft. Post Malone</a><br>
+                    <a data-okimage="http://kidstudio.co/work/mustafa-air-forces/airforces.gif" href="http://kidstudio.co/work/mustafa-air-forces" class="project-links" id="project-links">Mustafa 'Air Forces'</a><br>
+                    <a data-okimage="http://kidstudio.co/work/disclosure-energy/energy.gif" href="http://kidstudio.co/work/disclosure-energy" class="project-links" id="project-links">Disclosure 'Energy'</a><br>
+                    <a data-okimage="http://kidstudio.co/work/disclosure-birthday/birthday.gif" href="http://kidstudio.co/work/disclosure-birthday" class="project-links" id="project-links">Disclosure 'Birthday' ft. Kehlani &amp; Syd</a><br>
+                    <a data-okimage="http://kidstudio.co/work/disclosure-wys/wys.gif" href="http://kidstudio.co/work/disclosure-wys" class="project-links" id="project-links">Disclosure 'Watch Your Step' ft. Kelis</a><br>
+                    <a data-okimage="http://kidstudio.co/work/king-of-the-fall/featured1.png" href="http://kidstudio.co/work/king-of-the-fall" class="project-links" id="project-links">The Weeknd 'King of The Fall'</a><br>
+                    <a data-okimage="http://kidstudio.co/work/reminder/reminder.gif" href="http://kidstudio.co/work/reminder" class="project-links" id="project-links">The Weeknd 'Reminder'</a><br>
+                    <a data-okimage="http://kidstudio.co/work/no-stylist/stylist.gif" href="http://kidstudio.co/work/no-stylist" class="project-links" id="project-links">French Montana ft. Drake 'No Stylist'</a><br>
+                    <a data-okimage="http://kidstudio.co/work/bounce-back/bb.gif" href="http://kidstudio.co/work/bounce-back" class="project-links" id="project-links">Big Sean 'Bounce Back'</a><br>
+                    <a data-okimage="http://kidstudio.co/work/cos/cos.gif" href="http://kidstudio.co/work/cos" class="project-links" id="project-links">Future ft. The Weeknd 'Comin Out Strong'</a><br>
+                    <a data-okimage="http://kidstudio.co/work/slime/htk.gif" href="http://kidstudio.co/work/slime" class="project-links" id="project-links">Hard to Kill 'Slime'</a><br>
+                    <a data-okimage="http://kidstudio.co/work/nikereact/nike.gif" href="http://kidstudio.co/work/nikereact" class="project-links" id="project-links">Nike React Hyperdunk (Campaign Direction)</a><br>
+                    <a data-okimage="http://kidstudio.co/work/cyber69/cyber.gif" href="http://kidstudio.co/work/cyber69" class="project-links" id="project-links">Cyber69 x Nowness (Short)</a><br>
+                    <a data-okimage="http://kidstudio.co/work/nike-af1-x-saintwoods/hover-img.png" href="http://kidstudio.co/work/nike-af1-x-saintwoods" class="project-links" id="project-links">Nike AF1 x Saintwoods</a><br>
+                    <a data-okimage="http://kidstudio.co/work/riff/hover.gif" href="http://kidstudio.co/work/riff" class="project-links" id="project-links">RIFF Cannabis (Short)</a><br>
+                    <a data-okimage="http://kidstudio.co/work/god-bless-toronto/gbt-bmp.jpg" href="http://kidstudio.co/work/god-bless-toronto" class="project-links" id="project-links">God Bless Toronto (Compilation)</a><br>
+                    <a data-okimage="http://kidstudio.co/work/pique/pique-bmp.gif" href="http://kidstudio.co/work/pique" class="project-links" id="project-links">Pique</a><br> -->
+            </center>
+</div>
+</div></div>
+<script type="text/javascript" src="js/load.js"></script>
+<div class="loretta" id="loretta">
+    <center>
+        <a href="http://instagram.com/godblessmusa" class="social-links">INSTAGRAM</a> / 
+<!--         <a href="https://kidstudio.co/work/reel" class="social-links">REEL</a> /  -->
+        <a href="mailto:email@kidstudio.co" class="social-links">EMAIL@W4LLS.CO</a>
+    </center>
+</div>
+   
+
+<script>
+    setTimeout(function(){
+        if (!$('.loader').hasClass('loaded')) {
+            $('.loader').removeClass('hideLoader');
+        }
+    }, 100);
+</script>
+
+</div>
+
+<script src="js/function.js"></script>
+<script>
+window.onunload = function(){};
+        $(document).ready(function() {     
+            $('.project-links').hover(function(){     
+                $('#glenn').addClass('reverse');    
+            },     
+            function(){    
+                $('#glenn').removeClass('reverse');     
+            });
+        });
+        $(document).ready(function() {     
+            $('.project-links').hover(function(){     
+                $('#steven').addClass('reverse');    
+            },     
+            function(){    
+                $('#steven').removeClass('reverse');     
+            });
+        });
+        $(document).ready(function() {     
+            $('.project-links').hover(function(){     
+                $('#loretta').addClass('reverse');    
+            },     
+            function(){    
+                $('#loretta').removeClass('reverse');     
+            });
+        });
+        $(document).ready(function() {     
+            $('.project-links').hover(function(){     
+                $('#projects').addClass('reverse');    
+            },     
+            function(){    
+                $('#projects').removeClass('reverse');     
+            });
+        });
+        $(document).ready(function() {     
+            $('.project-links').hover(function(){     
+                $('#header').addClass('reverse');    
+            },     
+            function(){    
+                $('#header').removeClass('reverse');     
+            });
+        });
+
+        $(document).ready(function() {     
+            $('.project-links ').hover(function(){     
+                $('#logo-img').attr("src", "images/FOURWALLS.svg");   
+            },     
+            function(){    
+                $('#logo-img').attr("src", "images/FOURWALLS.svg"); 
+            });
+        });
+
+</script>
+<!-- <script type="text/javascript">
+    
+    // SWISH GANG 40 STILL CODES
+
+</script> -->
+<script type="text/javascript">
+$(window).ready(function() {
+
+})
+
+$(window).load(function() {
+    $('.loader').addClass('loaded');
+    $('.loader').addClass('hideLoader');
+    $('.loader').fadeOut(1000);
+    var atBottom;
+    $('.content').fadeIn(1000);
+    $('.nav-links, .project-links, .blog-item, .glenn, .next, .prev, a, .blog-item').click(function(event) {
+        console.log(this.href);
+        event.preventDefault();
+        if (this.href.indexOf("#") == -1){
+        newLocation = this.href;
+        $('.content').fadeOut(1000, newpage);
+        }
+    });
+    function newpage() {
+        window.location = newLocation;
+    }
+
+    if (document.location.pathname != "/film/" &&
+        document.location.pathname != "/" &&
+        document.location.pathname != "/#" &&
+        document.location.pathname != "/design/"){
+
+        var mobilecheck = function() {
+          var check = false;
+          (function(a){if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i.test(a)||/1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0,4)))check = true})(navigator.userAgent||navigator.vendor||window.opera);
+          return check;
+        }
+
+        if (mobilecheck() || navigator.userAgent.match(/iPad/i) != null) {
+            setInterval(function(){ 
+                var docHeight = $(document).height() - 38;
+                $('.loretta').css('position', 'absolute');
+                $('.loretta').css('top', docHeight + 'px');
+            }, 500);
+        }
+
+    }
+
+    $('a').okhover({
+        fadeIn: true,
+        fadeOut: true,
+        zIndex: 420,
+        fadeInDuration: 200,
+        el: '.projects'
+    }); 
+});
+</script>
+<script>
+    var oldUrl = document.referrer,
+    pageUrl = window.location.href;
+window.onhashchange = function () {
+    history.pushState({
+        url: "http://kidstudio.co/"
+    }, "title", "/")
+}, window.onpopstate = function (a) {
+    var b = document.referrer,
+        c = window.location.href;
+    if (b != c) {
+        a.state;
+        location.reload()
+    }
+};
+</script>
+
+
+</body>
+</html>
+
+<head>
+	 <!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-64948800-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-64948800-1');
+</script>
+
+<meta name="google-site-verification" content="RVsCW92S3XWZHhivELf5loWEhqyqLkpZ6s46IomBvaQ">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <style media="" data-href="styles/56.css">* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'am';
+  src:  url("http://kidstudio.co/assets/css/../fonts/am.woff2") format('woff2'),
+        url("http://kidstudio.co/assets/css/../fonts/am.woff") format('woff');
+}
+
+::-webkit-scrollbar { width: 0 !important }
+html{
+  background: #f0f0f0;
+  background-color: #f0f0f0;
+  cursor : url("http://kidstudio.co/assets/css/../images/cursor.png") 25 15, auto;
+}
+html.loading{
+  cursor : url("http://kidstudio.co/assets/css/../images/cursor.png") 25 15, auto;
+}
+html.wait{
+  cursor : url("http://kidstudio.co/assets/css/../images/cursor.png") 25 15, auto;
+}
+body.loading {
+  cursor : url("http://kidstudio.co/assets/css/../images/cursor.png") 25 15, auto;
+}
+body.wait {
+  cursor : url("http://kidstudio.co/assets/css/../images/cursor.png") 25 15, auto;
+}
+body {
+  -webkit-font-smoothing: subpixel-antialiased;
+  background: #f0f0f0;
+  background-color: #f0f0f0;
+  cursor: url("http://kidstudio.co/assets/css/../images/cursor.png")  25 15, auto;
+}
+.design-project-info a:hover {
+  color: #fff;
+  padding-top: 2px;
+  padding-bottom:0px;
+  background-color: #000;
+}
+
+.design-project-info a {
+  border-bottom: 1px solid #000;
+  padding-bottom: 1px;
+  padding-top: 2px;
+  color: #000000;
+}
+
+.buffer {
+  position: fixed;
+  z-index: 100000;
+}
+.content {
+  z-index: 565656;
+  display: none;
+}
+::selection {
+  background: #ffff00;
+}
+.featured::selection{
+  background: Transparent;
+}
+::-moz-selection {
+  background: #ffff00;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: url("http://kidstudio.co/assets/css/../images/hover.png") 25 15, auto;
+}
+.featured {
+  background: #606060;
+}
+
+.titles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  z-index: 1;
+}
+
+.title {
+  position: fixed;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.img-counter {
+  position: fixed;
+  top: 70%;
+  left: 79%;
+  font-family: 'Helvetica', Helvetica;
+  font-size: 1em;
+  color: #060606;
+  font-weight: 600;
+
+}
+
+#label1 {
+  left:15%;
+  top: 37%;
+  vertical-align: text-top;
+}
+#label2 {
+  left:115%;
+  top: 37%;
+  vertical-align: text-top;
+}
+#label3 {
+  left:215%;
+  top: 37%;
+  vertical-align: text-top;
+}
+
+.black-line {
+  position: fixed;
+  left: 15%;
+  top: 35%;
+  height: 10px;
+  width: 156px;
+  background-color: #060606;
+}
+
+.line1 {
+  font-family: 'Helvetica', Helvetica;
+  font-size: 4em;
+  color: #060606;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.line1 p{
+  display: inline;
+}
+
+.julian {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/* line 183, ../sass/56.scss */
+.slide {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+/* line 192, ../sass/56.scss */
+.glenn {
+  font-family: "Helvetica-Neue-Bold", "Helvetica Neue Bold", "HelveticaNeueBold", Helvetica-Neue, HelveticaNeue, "Helvetica", Helvetica, "Arial", Arial, sans-serif;
+  font-weight: 600;
+  position: fixed;
+  font-size: 2em;
+  color: #030303;
+  z-index: 565656;
+  top: 1em;
+  left: 2.4em;
+  display: inline-block;
+}
+
+/* line 203, ../sass/56.scss */
+.glenn-img img {
+  width: 85px;
+  height: auto;
+}
+
+/* line 208, ../sass/56.scss */
+.steven {
+  font-family: "Andale Mono", "AndaleMono", Andale-Mono, AndaleMono, monospace;
+  font-size: 0.8em;
+  color: #030303;
+  z-index: 565656;
+  top: 4em;
+  right: 4em;
+  position: fixed;
+  display: inline-block;
+  letter-spacing: 0.1em;
+}
+
+/* line 219, ../sass/56.scss */
+.nav-links {
+  margin: 1.5em;
+  padding-top: 2px;
+  padding-bottom:2px;
+  padding-left:7px;
+  padding-right:7px;
+}
+
+.nav-links.wait {
+  cursor : url("http://kidstudio.co/assets/css/../images/cursor.png") 25 15, auto;
+}
+.nav-links.loading {
+  cursor : url("http://kidstudio.co/assets/css/../images/cursor.png") 25 15, auto;
+}
+
+/* line 224, ../sass/56.scss */
+.steven > a:hover {
+  background-color: #030303;
+  color: #fff;
+}
+
+/* line 229, ../sass/56.scss */
+.loretta {
+  font-family: "Andale Mono", "AndaleMono", Andale-Mono, AndaleMono, monospace;
+  font-size: 0.8em;
+  color: #030303;
+  z-index: 565656;
+  bottom: 4em;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  letter-spacing: 0.1em;
+  z-index: 565656;
+  display: inline-block;
+}
+
+/* line 240, ../sass/56.scss */
+.loretta > center > a:hover {
+  background-color: #030303;
+  color: #fff;
+  padding-top: 2px;
+  padding-bottom:2px;
+  padding-left:7px;
+  padding-right:7px;
+}
+
+/* line 245, ../sass/56.scss */
+.social-links {
+  margin: 2em;
+  padding-top: 2px;
+  padding-bottom:2px;
+  padding-left:7px;
+  padding-right:7px;
+}
+
+/* line 250, ../sass/56.scss */
+.next {
+  font-family: "Andale Mono", "AndaleMono", Andale-Mono, AndaleMono, monospace;
+  font-size: 0.9em;
+  color: #030303;
+  position: fixed;
+  right: 25px;
+  letter-spacing: 0.1em;
+  z-index: 565656;
+  top: 50%;
+  transform: rotate(90deg);
+  cursor: url("http://kidstudio.co/assets/css/../images/right.png") 25 15, auto;
+}
+/* line 260, ../sass/56.scss */
+.prev {
+  font-family: "Andale Mono", "AndaleMono", Andale-Mono, AndaleMono, monospace;
+  font-size: 0.9em;
+  color: #030303;
+  position: fixed;
+  left: 0px;
+  top: 50%;
+  letter-spacing: 0.1em;
+  z-index: 565656;
+  transform: rotate(270deg);
+  cursor: url("http://kidstudio.co/assets/css/../images/left.png") 25 15, auto;
+}
+
+/* line 275, ../sass/56.scss */
+.projects {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  font-family: "Andale Mono", "AndaleMono", Andale-Mono, AndaleMono, monospace;
+  color: #030303;
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 287, ../sass/56.scss */
+.header {
+  font-family: "Helvetica-Neue-Bold", "Helvetica Neue Bold", "HelveticaNeueBold", Helvetica-Neue, HelveticaNeue, "Helvetica", Helvetica, "Arial", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 5.6em;
+  color: #030303;
+  z-index: 56;
+  margin-bottom: 20px;
+}
+
+/* line 296, ../sass/56.scss */
+.project-list {
+  line-height: 2em;
+  letter-spacing: 0.1em;
+  padding-bottom: 5%;
+  font-size: 1em;
+}
+
+/* line 302, ../sass/56.scss */
+.project-list > center > a:hover {
+  background-color: #030303;
+}
+
+/* line 306, ../sass/56.scss */
+.project-links {
+  margin: 1em;
+  font-size: 1em;
+  padding-top: 2px;
+  padding-bottom:2px;
+  padding-left:6px;
+  padding-right:6px;
+  text-transform:uppercase;
+}
+
+/* line 312, ../sass/56.scss */
+.reverse {
+  color: #fff;
+}
+
+/* line 316, ../sass/56.scss */
+.reverse-img img {
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+  -moz-filter: invert(100%);
+  -o-filter: invert(100%);
+  -ms-filter: invert(100%);
+}
+
+/* line 324, ../sass/56.scss */
+.vince {
+  display: none;
+}
+
+/* line 337, ../sass/56.scss */
+.info-wrap {
+  width: 75%;
+  background-color: 0;
+  font-family: "Avenir", Avenir, sans-serif;
+  font-size: .8em;
+  padding: 40px 40px;
+}
+.video-overlay {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 341, ../sass/56.scss */
+.info-head {
+  font-family: "Helvetica-Neue-Bold", "Helvetica Neue Bold", "HelveticaNeueBold", Helvetica-Neue, HelveticaNeue, "Helvetica", Helvetica, "Arial", Arial, sans-serif;
+  font-size: 7em;
+  font-weight: 600;
+  padding-bottom: 5%;
+  margin-top: -13px;
+  color: #030303;
+}
+
+/* line 349, ../sass/56.scss */
+.info-kid {
+  font-family: "Avenir", Avenir, sans-serif;
+  padding-bottom: 5%;
+  color: #030303;
+  line-height: 1.5em;
+}
+
+.videos{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.info-img2 {
+  position: relative;
+  display: none;
+  width:80%;
+  margin-left: 10%;
+  top: 115px;
+  padding-bottom: 60px;
+}
+
+/* line 356, ../sass/56.scss */
+.info-contact {
+  font-family: "Avenir", Avenir, sans-serif;
+  font-size: 1em;
+  color: #030303;
+  line-height: 1.5em;
+}
+/* line 363, ../sass/56.scss */
+.design-wrap {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* line 373, ../sass/56.scss */
+.design-board {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  color: #030303;
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+#db1 {
+  overflow: hidden;
+}
+
+.blogentry-image {
+  position: fixed;
+  display: inline-block;
+  /* cursor: url("http://kidstudio.co/assets/css/../images/view.png") 25 15, auto; */
+  z-index: 1000;
+}
+
+.blogentry-image:last-of-type {
+  padding-bottom: 10%; 
+}
+
+.blogentry-img {
+  height: auto;
+}
+
+/* line 384, ../sass/56.scss */
+.design-project-name {
+  font-family: "Helvetica-Neue-Bold", "Helvetica Neue Bold", "HelveticaNeueBold", Helvetica-Neue, HelveticaNeue, "Helvetica", Helvetica, "Arial", Arial, sans-serif;
+  font-size: 5.6em;
+  font-weight: bold;
+  line-height: 1em;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  position: fixed;
+  top: 180px;
+  width: 75%;
+  left: 50%;
+  margin: 0 0 0 -37.5%;
+  z-index: 10000000000;
+}
+
+.blog-project-name {
+  /*position: fixed;*/
+  font-family: "Helvetica-Neue-Bold", "Helvetica Neue Bold", "HelveticaNeueBold", Helvetica-Neue, HelveticaNeue, "Helvetica", Helvetica, "Arial", Arial, sans-serif;
+  font-size: 5.6em;
+  font-weight: bold;
+  margin-left: -4px;
+  line-height: 100%;
+}
+.noscroll{
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+/* line 397, ../sass/56.scss */
+.design-project-info-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 405, ../sass/56.scss */
+.design-project-info {
+  background-color: #f0f0f0;
+  font-family: "Avenir", Avenir, sans-serif;
+  font-size: 0.8em;
+  padding: 30px 30px;
+  width: 350px;
+  position: fixed;
+  top: 350px;
+  left: 50%;
+  z-index: 1005;
+  line-height: 1.5em;
+}
+
+/* line 416, ../sass/56.scss */
+.design-board .layer-top img {
+  width: 50%;
+  height: auto;
+}
+
+/* line 421, ../sass/56.scss */
+.design-board .layer-bottom img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 426, ../sass/56.scss */
+.design-img {
+  margin-left: -10%;
+  padding-top: 40%;
+  padding-bottom: 40%;
+}
+
+/* line 432, ../sass/56.scss */
+.design-img-1 {
+  padding-top: 20%;
+}
+
+/* line 436, ../sass/56.scss */
+.design-img-5 {
+  padding-top: 80%;
+}
+
+/* line 440, ../sass/56.scss */
+.film-wrap {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* line 450, ../sass/56.scss */
+.film-board {
+  width: 100%;
+  height: 400%;
+  position: absolute;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  color: #030303;
+  top: 0;
+  left: 0;
+}
+
+/* line 461, ../sass/56.scss */
+.film-project-name {
+  font-family: "Helvetica-Neue-Bold", "Helvetica Neue Bold", "HelveticaNeueBold", Helvetica-Neue, HelveticaNeue, "Helvetica", Helvetica, "Arial", Arial, sans-serif;
+  font-size: 3em;
+  font-weight: 600;
+  padding-bottom: 5%;
+  width: 35%;
+  position: fixed;
+  top: 30%;
+  left: 10%;
+  z-index: 56;
+}
+
+/* line 473, ../sass/56.scss */
+.film-project-info-wrap {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 481, ../sass/56.scss */
+.film-project-info {
+  font-family: "Avenir", Avenir, sans-serif;
+  font-size: 0.8em;
+  padding-bottom: 5%;
+  width: 26%;
+  position: absolute;
+  top: 55%;
+  left: 10%;
+  z-index: 56;
+}
+
+/* line 492, ../sass/56.scss */
+.film-board .layer-top img {
+  width: 60%;
+  height: auto;
+}
+
+/* line 497, ../sass/56.scss */
+.film-board .layer-bottom img {
+  width: 60%;
+  height: auto;
+}
+
+/* line 502, ../sass/56.scss */
+.layer-top {
+  position: relative;
+  z-index: 2;
+  padding-left: 200px;
+}
+
+/* line 508, ../sass/56.scss */
+.layer-bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  margin-left: 60%;
+  margin-top: 30%;
+}
+
+/* line 517, ../sass/56.scss */
+.film-img {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 40%;
+  padding-bottom: 40%;
+}
+
+/* line 524, ../sass/56.scss */
+.film-img-1 {
+  padding-top: 20%;
+  padding-left: 40%;
+}
+
+/* line 529, ../sass/56.scss */
+.no-show {
+  opacity: 0;
+}
+
+/* line 533, ../sass/56.scss */
+#flash {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+/* line 541, ../sass/56.scss */
+#flash img {
+  width: 100%;
+}
+
+/* line 545, ../sass/56.scss */
+.blog-board {
+  width: 100%;
+  height: 200%;
+  position: absolute;
+  color: #030303;
+  top: 0;
+  left: 0;
+}
+
+/* line 555, ../sass/56.scss */
+.blog-post-wrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: #030303;
+}
+
+/* line 564, ../sass/56.scss */
+.blog-head-wrap {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  font-family: "Helvetica-Neue-Bold", "Helvetica Neue Bold", "HelveticaNeueBold", Helvetica-Neue, HelveticaNeue, "Helvetica", Helvetica, "Arial", Arial, sans-serif;
+  font-size: 5.6em;
+  font-weight: 600;
+  position: fixed;
+  z-index: 0;
+}
+
+/* line 577, ../sass/56.scss */
+.blog-head { 
+  margin-bottom: 15px;
+  font-family: "Helvetica-Neue-Bold", "Helvetica Neue Bold", "HelveticaNeueBold", Helvetica-Neue, HelveticaNeue, "Helvetica", Helvetica, "Arial", Arial, sans-serif;
+  font-size: 5.6em;
+  font-weight: 600;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  margin-top: -10px;
+  z-index: 1000000000000000000000000000;
+}
+
+/* line 581, ../sass/56.scss */
+.blog-post-info {
+  transform: translate(-25px, 25px);
+  position: absolute;
+  margin-left: -20px;
+}
+
+/* line 585, ../sass/56.scss */
+.blog-post-title {
+  font-family: "Helvetica-Neue-Bold", "Helvetica Neue Bold", "HelveticaNeueBold", Helvetica-Neue, HelveticaNeue, "Helvetica", Helvetica, "Arial", Arial, sans-serif;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+/* line 591, ../sass/56.scss */
+.blog-timestamp {
+  display: inline-block;
+  font-family: 'am', "Andale Mono", "AndaleMono", Andale-Mono, AndaleMono, monospace;
+  color: #030303;
+  font-size: 0.6em;
+  letter-spacing: 0.1em;
+  padding-top: 0.3em;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.blogentry-timestamp {
+  color: #000000;
+  padding-top: 5.6px; 
+  padding-bottom: 30px;
+}
+
+.blah{
+  position: fixed;
+  z-index: 1;
+    position: absolute;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+.no-touch .blah:hover > .blog-post-info > .blog-timestamp {
+  background-color: #030303;
+  color: #f0f0f0;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.no-touch .blah:hover .post-title {
+  background: black;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+/* line 600, ../sass/56.scss */
+.no-touch .blog-item:hover > .blog-post-info > .blog-timestamp {
+  background-color: #030303;
+  color: #f0f0f0;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.post-title {
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.no-touch .blog-item:hover .post-title {
+  background: black;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+/* line 608, ../sass/56.scss */
+.blog-item {
+
+  position: absolute;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+.blog-item:last-of-type {
+  padding-bottom: 10%; 
+}
+.blah:last-of-type {
+  padding-bottom: 10%; 
+}
+/* line 634, ../sass/56.scss */
+.blog-item img {
+  position: relative;
+  z-index: -1;
+}
+.blah img {
+  position: relative;
+  z-index: -1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+
+.hide-flash {
+  display: none;
+}
+
+.random-image {
+  position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  z-index: 5656565656565656565656565656565565656565656565656565656565;
+}
+
+.text{
+display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin-top:20%;
+  overflow-x: hidden;
+  font-family: 'Helvetica', Helvetica, Arial;
+}
+
+.text1 {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  font-family: 'Helvetica', Helvetica, Arial;
+}
+.info {
+  position: fixed;
+  top: 25%;
+  right: 0;
+  width: 38%;
+  height: 100%;
+}
+
+.sc-widget {
+  /*display: none;*/
+  position: fixed;
+  top: -150px;
+}
+
+.fill {
+  position: relative;
+  width: 100%
+  height: 10px;
+  margin-bottom: 30px; 
+}
+
+.player {
+  position: relative;
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+  height: 30px;
+  width: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #efefef;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+}
+
+#stream {
+  position: fixed;
+  z-index: 100;
+}
+.track {
+  width: 20px;
+  height: 20px;
+}
+.testing2{
+  position: fixed;
+  z-index: 100;
+}
+.waveform {
+  z-index: 3;
+  position: relative;
+  opacity: 0.15;
+  width: 100%;
+  height: 3px;
+  top: 13.5px;
+  background-size: 100% 100%;
+  background-color: black;
+}
+
+.position {
+  opacity: 1;
+  z-index: 5;
+  position: relative;
+  width: 0;
+  height: 3px;
+  background-color: black;
+  top: 10.5px;
+  transition: width .1s linear;
+  -webkit-transition: width .1s linear;
+  -moz-transition: width .1s linear;
+  -o-transition: width .1s linear;
+  -webkit-transform: translateZ(0);
+}
+
+.sc-play { 
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  top: 5px;
+  left: 0;
+  cursor: pointer;
+  background-image: url("http://kidstudio.co/assets/css/../images/sc-play.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: inline-block;
+}
+
+.scrub{
+  position: relative;
+  display: inline-block;
+  width: 90%;
+  height: 30px;
+  float: right;  
+  top: 0;
+  cursor: pointer;
+}
+
+@media (max-width:600px), only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .info-kid {
+      margin-top: -20px;
+    }
+    .julian {
+      margin-top: 35px;
+    }
+
+    .next {
+      font-size: 10px;
+      top: 50%;
+      right: 5px;
+    }
+
+    .prev {
+      font-size: 10px;
+      top: 49%;
+      left: -10px;
+    }
+    .glenn-img {
+        width: 100%;
+    }
+    
+    .glenn {
+        width: 100px;
+        display: block;
+        left: 50%;
+        margin-left: -50px;
+        top: 25px;
+    }
+    
+    #logo-img {
+      width: 100%;
+    }
+
+    .player {
+      width: 100%;
+    }
+
+    .steven {
+        font-size: 10px;
+        word-spacing: -41px;
+        right: auto;
+        top: 85px; 
+        width: 100%;
+        text-align: center;
+    }
+    
+    .black-line {
+        width: 10%;
+        height: 0.3%;
+        top: 30%;
+    }
+
+    .loretta {
+        position: fixed !important;
+        bottom: 25px !important;
+        font-size: 10px;
+        word-spacing: -20px;
+    }
+    
+    .header {
+        display: none;
+    }
+    
+    .project-list {
+    }
+    
+    .titles {
+        width: 100%;
+    }
+    
+    .line1 {
+        font-size: 1em;
+    }
+    
+    #label1 {
+      top: 32%;
+    }
+    #label2 {
+      top: 32%; 
+    }
+    #label3 {
+      top: 32%;
+    }
+    .title-wrap {
+        top: 15%;
+    }
+
+    .blog-img {
+      width: 100% !important;
+      height: auto !important;
+
+    }
+
+    .blogentry-image {
+      position: relative !important;
+      width: 80% !important;  
+      height: auto !important;
+      left: 0px !important;
+
+      margin-left: 10% !important;
+      margin-bottom: 10% !important;
+    }
+
+    iframe {
+      width: 100% !important; 
+      height: auto;
+      /*margin-left: -10% !important;*/
+    }
+
+    .design-board {
+      height: auto !important;
+      display:block !important;
+      overflow: initial !important;
+    }
+
+    .design-project-name {
+      top: 125px;
+      font-size: 28px;
+      font-weight: bold;
+      margin: 0;
+      /*margin-left: 10%;*/
+      left: 0;
+    }
+
+    .design-project-name p{
+      width: 100%;
+      text-align: left;
+    }
+    .blog-project-name {
+      position: relative;
+      font-size: 2em;
+      margin-left: -2.5px;
+      font-weight: bold;
+    }
+    .blogentry-timestamp {
+      padding-bottom: 20px !important;
+    }
+    .design-project-info-wrap {
+      height: 0 !important;
+      width: 100vw !important;
+    }
+    .design-project-info {
+      left: 0px;
+      position: relative !important;
+      padding: 30px 0px;
+      width: 80%;
+      margin-left: 10%;
+    }
+    .blog-item {
+      position: relative !important;
+      top: 150px !important;
+      width: 80% !important;  
+      height: auto !important;
+      left: 0px !important;
+
+      margin-left: 10% !important;
+      margin-bottom: 10% !important;
+    }
+    .blah{
+      position: relative !important;
+      top: 125px !important;
+      width: 80% !important;  
+      height: auto !important;
+      left: 0px !important;
+
+      margin-left: 10% !important;
+      margin-bottom: 10% !important;
+    }
+    .blah:last-of-type {
+      padding-bottom: 60px; 
+    }
+    .blog-head-wrap {
+      top: 180px !important;
+      z-index: 1000;
+      width: auto;
+      height: auto;
+      display: block;
+      left: 50%;
+    }
+    .video-overlay {
+      width: 100%;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      display: inline-block;
+    }
+    .info {
+      position: relative;
+      width: 80%;
+      top: 100px;
+      margin: 0 auto;
+    }
+
+    #featured-wrapper {
+      margin-top: 8px;
+      width: 100%;
+      height: auto;
+    }
+
+    #featured-wrapper #featured {
+      margin-top: 0px !important;
+    }
+
+    #featured-wrapper  canvas{
+      width: 100%;
+      height: auto;
+    }
+
+    .blog-item img{
+      width: 100%;
+    }
+    .blah img{
+      width: 100%;
+    }
+
+    .blog-head {
+      display: none;
+    }
+
+    .blog-board {
+      height: 100% !important;
+    }
+
+    .blogentry-image:last-of-type {
+      padding-bottom: 60px; 
+    }
+    .blogentry-image img {
+      width: 100%;
+    }
+
+    .blogentry-img img {
+      width: 100%;
+    }
+
+    .nav-links {
+      padding-left: 11px;
+      padding-right: 11px;
+    }
+
+    .blog-post-info {
+      margin-left: 8px;
+    }
+
+    .info-wrap {
+      width: 100%;
+      left: 0;
+      padding: 0 0 0 0;
+      margin-top: 50px;
+    }
+
+    .info-head {
+      display: none;
+    }
+
+    .post-title {
+      padding-left: 0px;
+    }
+
+    .blog-timestamp {
+      padding-left: 0px;
+    }
+
+
+}
+
+.songtitle {
+  position: relative;
+  font-size: 0.85em;
+  color: #000000;
+  width: 100%;
+  height: 20px;
+  top: 0;
+  background-color: #f0f0f0;
+  z-index: 100;
+}
+
+.hide-footer {
+  display: none !important;
+}
+
+.show-footer {
+  display: block !important;
+  bottom: 1em !important;
+}
+
+.footer-wrapper {
+  z-index: -1;
+  position: relative;
+}
+
+.loader {
+  z-index: 56565656565656;
+  background-image: url("http://kidstudio.co/assets/css/../images/loader.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 128px;
+  height: 128px;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  margin-top: -10px;
+}
+
+.hideLoader {
+  display: none;
+}
+
+.main {
+  position: fixed;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%; 
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .line1{
+    font-size: 4em;
+  }
+  .black-line{
+    height: 5px;
+  }
+} </style>
+  <script src="/scripts/prefixfree.min.js"></script>
+  <title>FOUR WALLS CO | Work</title>
+  <meta name="description" content="Creative studio — branding, design and film.">
+  <meta name="keywords" content="Kid,Studio,Design,Film,Toronto,Creative">
+  
+  <meta property="og:title" content="Kid. Studio — Toronto">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="http://www.kidstudio.co/fb.jpg">
+  <meta property="og:image:url" content="http://www.kidstudio.co/fb.jpg">
+  <meta property="og:image:width" content="1201">
+  <meta property="og:image:height" content="594">
+  <meta property="og:url" content="http://www.kidstudio.co">
+  <meta property="og:description" content="Creative Studio — Toronto">
+    
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@godblessmusa">
+  <meta name="twitter:creator" content="@godblessmusa">
+  <meta name="twitter:title" content="Kid. Studio">
+  <meta name="twitter:description" content="Creative Studio — Toronto">
+  <meta name="twitter:image" content="http://www.kidstudio.co/assets/social/kid.png">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="js/three.min.js"></script>
+  <script src="js/okhover.min.js"></script>
+  <script src="js/jquery.smoothstate.js"></script>
+  <script type="text/javascript" src="/scripts/flasher.js"></script>
+  <script src="js/jquery.nicescroll.min.js"></script>
+  <script src="js/modernizr.js"></script>
+
+</head>
+
+<body><div class="random-image hide-flash" style="background-image: url(&quot;images/image02.png&quot;);"></div>
+    <div class="m-scene" id="main">
+    <div class="loader hideLoader loaded"></div>
+      
+  <header>
+    <a href="w4lls.co" class="glenn" id="glenn"><div class="glenn-img"><img id="logo-img" src="images/FOURWALLS.svg"></div></a>
+    <div class="steven" id="steven">
+      <a href="https://w4lls.co/work" class="nav-links">WORK</a>
+      <a href="/info" class="nav-links">INFO</a>
+    </div>
+      </header>
+  
+
+  
+
+
+<div class="content" style="display: block;">
+<div class="projects" id="projects" style="z-index: 420; background-position: -414px -226px;">
+<div class="header" id="header"></div>
+<div class="project-list">
+    <center>
+                    <a data-okimage="images/image02.png" href="https://www.youtube.com/watch?v=M_RgFHfvb6E" class="project-links" id="project-links">Musa Elms 'The Walls'</a><br>
+<!--                     <a data-okimage="http://kidstudio.co/work/bryson-tiller-always-forever/alwaysforever.gif" href="http://kidstudio.co/work/bryson-tiller-always-forever" class="project-links" id="project-links">Bryson Tiller 'Always Forever'</a><br>
+                    <a data-okimage="http://kidstudio.co/work/wolves/wolves.gif" href="http://kidstudio.co/work/wolves" class="project-links" id="project-links">Big Sean 'Wolves' ft. Post Malone</a><br>
+                    <a data-okimage="http://kidstudio.co/work/mustafa-air-forces/airforces.gif" href="http://kidstudio.co/work/mustafa-air-forces" class="project-links" id="project-links">Mustafa 'Air Forces'</a><br>
+                    <a data-okimage="http://kidstudio.co/work/disclosure-energy/energy.gif" href="http://kidstudio.co/work/disclosure-energy" class="project-links" id="project-links">Disclosure 'Energy'</a><br>
+                    <a data-okimage="http://kidstudio.co/work/disclosure-birthday/birthday.gif" href="http://kidstudio.co/work/disclosure-birthday" class="project-links" id="project-links">Disclosure 'Birthday' ft. Kehlani &amp; Syd</a><br>
+                    <a data-okimage="http://kidstudio.co/work/disclosure-wys/wys.gif" href="http://kidstudio.co/work/disclosure-wys" class="project-links" id="project-links">Disclosure 'Watch Your Step' ft. Kelis</a><br>
+                    <a data-okimage="http://kidstudio.co/work/king-of-the-fall/featured1.png" href="http://kidstudio.co/work/king-of-the-fall" class="project-links" id="project-links">The Weeknd 'King of The Fall'</a><br>
+                    <a data-okimage="http://kidstudio.co/work/reminder/reminder.gif" href="http://kidstudio.co/work/reminder" class="project-links" id="project-links">The Weeknd 'Reminder'</a><br>
+                    <a data-okimage="http://kidstudio.co/work/no-stylist/stylist.gif" href="http://kidstudio.co/work/no-stylist" class="project-links" id="project-links">French Montana ft. Drake 'No Stylist'</a><br>
+                    <a data-okimage="http://kidstudio.co/work/bounce-back/bb.gif" href="http://kidstudio.co/work/bounce-back" class="project-links" id="project-links">Big Sean 'Bounce Back'</a><br>
+                    <a data-okimage="http://kidstudio.co/work/cos/cos.gif" href="http://kidstudio.co/work/cos" class="project-links" id="project-links">Future ft. The Weeknd 'Comin Out Strong'</a><br>
+                    <a data-okimage="http://kidstudio.co/work/slime/htk.gif" href="http://kidstudio.co/work/slime" class="project-links" id="project-links">Hard to Kill 'Slime'</a><br>
+                    <a data-okimage="http://kidstudio.co/work/nikereact/nike.gif" href="http://kidstudio.co/work/nikereact" class="project-links" id="project-links">Nike React Hyperdunk (Campaign Direction)</a><br>
+                    <a data-okimage="http://kidstudio.co/work/cyber69/cyber.gif" href="http://kidstudio.co/work/cyber69" class="project-links" id="project-links">Cyber69 x Nowness (Short)</a><br>
+                    <a data-okimage="http://kidstudio.co/work/nike-af1-x-saintwoods/hover-img.png" href="http://kidstudio.co/work/nike-af1-x-saintwoods" class="project-links" id="project-links">Nike AF1 x Saintwoods</a><br>
+                    <a data-okimage="http://kidstudio.co/work/riff/hover.gif" href="http://kidstudio.co/work/riff" class="project-links" id="project-links">RIFF Cannabis (Short)</a><br>
+                    <a data-okimage="http://kidstudio.co/work/god-bless-toronto/gbt-bmp.jpg" href="http://kidstudio.co/work/god-bless-toronto" class="project-links" id="project-links">God Bless Toronto (Compilation)</a><br>
+                    <a data-okimage="http://kidstudio.co/work/pique/pique-bmp.gif" href="http://kidstudio.co/work/pique" class="project-links" id="project-links">Pique</a><br> -->
+            </center>
+</div>
+</div></div>
+<script type="text/javascript" src="js/load.js"></script>
+<div class="loretta" id="loretta">
+    <center>
+        <a href="http://instagram.com/godblessmusa" class="social-links">INSTAGRAM</a> / 
+<!--         <a href="https://kidstudio.co/work/reel" class="social-links">REEL</a> /  -->
+        <a href="mailto:email@kidstudio.co" class="social-links">EMAIL@W4LLS.CO</a>
+    </center>
+</div>
+   
+
+   <script>
+    setTimeout(function(){
+        if (!$('.loader').hasClass('loaded')) {
+            $('.loader').removeClass('hideLoader');
+        }
+    }, 100);
+</script>
+
+</div>
+<script src="js/function.js"></script>
+<script>
+window.onunload = function(){};
+        $(document).ready(function() {     
+            $('.project-links').hover(function(){     
+                $('#glenn').addClass('reverse');    
+            },     
+            function(){    
+                $('#glenn').removeClass('reverse');     
+            });
+        });
+        $(document).ready(function() {     
+            $('.project-links').hover(function(){     
+                $('#steven').addClass('reverse');    
+            },     
+            function(){    
+                $('#steven').removeClass('reverse');     
+            });
+        });
+        $(document).ready(function() {     
+            $('.project-links').hover(function(){     
+                $('#loretta').addClass('reverse');    
+            },     
+            function(){    
+                $('#loretta').removeClass('reverse');     
+            });
+        });
+        $(document).ready(function() {     
+            $('.project-links').hover(function(){     
+                $('#projects').addClass('reverse');    
+            },     
+            function(){    
+                $('#projects').removeClass('reverse');     
+            });
+        });
+        $(document).ready(function() {     
+            $('.project-links').hover(function(){     
+                $('#header').addClass('reverse');    
+            },     
+            function(){    
+                $('#header').removeClass('reverse');     
+            });
+        });
+
+        $(document).ready(function() {     
+            $('.project-links ').hover(function(){     
+                $('#logo-img').attr("src", "images/FOURWALLS.svg");   
+            },     
+            function(){    
+                $('#logo-img').attr("src", "images/FOURWALLS.svg"); 
+            });
+        });
+
+</script>
+<!-- <script type="text/javascript">
+    
+    // SWISH GANG 40 STILL CODES
+
+</script> -->
+<script type="text/javascript">
+$(window).ready(function() {
+
+})
+
+$(window).load(function() {
+    $('.loader').addClass('loaded');
+    $('.loader').addClass('hideLoader');
+    $('.loader').fadeOut(1000);
+    var atBottom;
+    $('.content').fadeIn(1000);
+    $('.nav-links, .project-links, .blog-item, .glenn, .next, .prev, a, .blog-item').click(function(event) {
+        console.log(this.href);
+        event.preventDefault();
+        if (this.href.indexOf("#") == -1){
+        newLocation = this.href;
+        $('.content').fadeOut(1000, newpage);
+        }
+    });
+    function newpage() {
+        window.location = newLocation;
+    }
+
+    if (document.location.pathname != "/film/" &&
+        document.location.pathname != "/" &&
+        document.location.pathname != "/#" &&
+        document.location.pathname != "/design/"){
+
+        var mobilecheck = function() {
+          var check = false;
+          (function(a){if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i.test(a)||/1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0,4)))check = true})(navigator.userAgent||navigator.vendor||window.opera);
+          return check;
+        }
+
+        if (mobilecheck() || navigator.userAgent.match(/iPad/i) != null) {
+            setInterval(function(){ 
+                var docHeight = $(document).height() - 38;
+                $('.loretta').css('position', 'absolute');
+                $('.loretta').css('top', docHeight + 'px');
+            }, 500);
+        }
+
+    }
+
+    $('a').okhover({
+        fadeIn: true,
+        fadeOut: true,
+        zIndex: 420,
+        fadeInDuration: 200,
+        el: '.projects'
+    }); 
+});
+</script>
+<script>
+    var oldUrl = document.referrer,
+    pageUrl = window.location.href;
+window.onhashchange = function () {
+    history.pushState({
+        url: "http://kidstudio.co/"
+    }, "title", "/")
+}, window.onpopstate = function (a) {
+    var b = document.referrer,
+        c = window.location.href;
+    if (b != c) {
+        a.state;
+        location.reload()
+    }
+};
+</script>
+
+
+</body>
